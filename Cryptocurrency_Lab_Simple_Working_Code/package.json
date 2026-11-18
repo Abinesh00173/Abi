@@ -1,0 +1,14 @@
+{
+  "name": "cryptocurrency-lab-simple-code",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple runnable JavaScript demonstrations for six cryptocurrency lab experiments",
+  "scripts": {
+    "exp1": "node experiment-1/app.js",
+    "exp2": "node experiment-2/app.js",
+    "exp3": "node experiment-3/app.js",
+    "exp4": "node experiment-4/app.js",
+    "exp5": "node experiment-5/app.js",
+    "exp6": "node experiment-6/app.js"
+  }
+}

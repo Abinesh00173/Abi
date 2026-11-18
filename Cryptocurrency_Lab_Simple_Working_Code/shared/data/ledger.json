@@ -1,0 +1,119 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-11-18T00:44:05.672Z",
+    "data": {
+      "message": "Genesis block"
+    },
+    "previousHash": "0",
+    "hash": "1442fd88d0457e410cc02bac88e9070cac90b4c02614972ad30db258d6b9c20b"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-11-18T00:44:05.716Z",
+    "data": {
+      "type": "CreateAsset",
+      "asset": {
+        "id": "asset6",
+        "color": "blue",
+        "size": 20,
+        "owner": "Tom",
+        "appraisedValue": 500
+      }
+    },
+    "previousHash": "1442fd88d0457e410cc02bac88e9070cac90b4c02614972ad30db258d6b9c20b",
+    "hash": "d040b010aa2e736b7678a637718736af4d7d01d039b36489f7bb99f658305d11"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-11-18T00:47:26.847Z",
+    "data": {
+      "type": "Transfer",
+      "sender": "1",
+      "receiver": "1",
+      "amount": 1
+    },
+    "previousHash": "d040b010aa2e736b7678a637718736af4d7d01d039b36489f7bb99f658305d11",
+    "hash": "7443246848ebb9fef79bcf341a1bfc83dba4b01dfe56dfa770620dc4393236d9"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-11-18T00:58:53.620Z",
+    "data": {
+      "type": "CreateAsset",
+      "asset": {
+        "id": "asset7",
+        "color": "red",
+        "size": 30,
+        "owner": "Alice",
+        "appraisedValue": 1000
+      }
+    },
+    "previousHash": "7443246848ebb9fef79bcf341a1bfc83dba4b01dfe56dfa770620dc4393236d9",
+    "hash": "74a2ede0247194a44120fb395b8dadec14c0533347da4e6f27815a197cd4631e"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-11-18T00:58:53.649Z",
+    "data": {
+      "type": "UpdateAsset",
+      "asset": {
+        "id": "asset7",
+        "color": "blue",
+        "size": 35,
+        "owner": "Alice",
+        "appraisedValue": 1000
+      }
+    },
+    "previousHash": "74a2ede0247194a44120fb395b8dadec14c0533347da4e6f27815a197cd4631e",
+    "hash": "0bb6dbbcbb44e9558766cf3c8a82b016081f7594c4475647831c8f0d6e8cc15d"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-11-18T00:58:53.653Z",
+    "data": {
+      "type": "TransferAsset",
+      "asset": {
+        "id": "asset7",
+        "color": "blue",
+        "size": 35,
+        "owner": "Bob",
+        "appraisedValue": 1000
+      }
+    },
+    "previousHash": "0bb6dbbcbb44e9558766cf3c8a82b016081f7594c4475647831c8f0d6e8cc15d",
+    "hash": "9c7bd770a7073c7e19524f2cd30c7e39f701e8f3313d5fa6775365a88f243937"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-11-18T01:10:45.661Z",
+    "data": {
+      "type": "UpdateAsset",
+      "asset": {
+        "id": "asset7",
+        "color": "blue",
+        "size": 35,
+        "owner": "Bob",
+        "appraisedValue": 1000
+      }
+    },
+    "previousHash": "9c7bd770a7073c7e19524f2cd30c7e39f701e8f3313d5fa6775365a88f243937",
+    "hash": "8398e5da7bc491d0ec60b1ab8c3d5df33a47d54844c9d2b759c8828d150c80d4"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-11-18T01:10:45.695Z",
+    "data": {
+      "type": "TransferAsset",
+      "asset": {
+        "id": "asset7",
+        "color": "blue",
+        "size": 35,
+        "owner": "Bob",
+        "appraisedValue": 1000
+      }
+    },
+    "previousHash": "8398e5da7bc491d0ec60b1ab8c3d5df33a47d54844c9d2b759c8828d150c80d4",
+    "hash": "6686cc83187090d2b109f6dcac22a745b8a68b3aab6f5483c13f6a145c32dda3"
+  }
+]
