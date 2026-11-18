@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Club Rewards</title>
+</head>
+<body>
+
+    <h2>Fitness Club Rewards System</h2>
+
+    <label>Member ID:</label>
+    <input type="text" id="memberId">
+
+    <br><br>
+
+    <label>Member Name:</label>
+    <input type="text" id="memberName">
+
+    <br><br>
+
+    <button onclick="registerMember()">Register Member</button>
+
+    <h3>Reward Points</h3>
+
+    <input type="number" id="points" placeholder="Enter points">
+
+    <button onclick="addPoints()">Add Points</button>
+
+    <br><br>
+
+    <button onclick="queryMember()">View Member Details</button>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
